@@ -5,13 +5,21 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/sample-in-app-browser/sample.zip",
       "projectGuid": "2dc9a324-770f-48ad-a87c-4ed9c8f2ffa3",
-      "lastModifiedDate": 1474207703765,
+      "lastModifiedDate": 1474209278118,
       "creationDate": 1474207679518
     },
     "XDK-app-designer": "false",
     "sourceDirectory": "www",
     "startFile": "index.html",
-    "projectFiles": {},
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
     "projectDirectories": {},
     "libraries": [],
     "serviceMethods": [],
@@ -143,7 +151,7 @@
         "appName_": "GoApp",
         "appID_": "demo.inappbrowser",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "http://debug-software.intel.com/*",
             "https://debug-software.intel.com/*",
@@ -154,7 +162,8 @@
             "http://html5test.com/*",
             "http://www.i-drain.net/*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
@@ -180,7 +189,7 @@
         "appName_": "GoApp",
         "appID_": "demo.inappbrowser",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "http://debug-software.intel.com/*",
             "https://debug-software.intel.com/*",
@@ -191,7 +200,8 @@
             "http://html5test.com/*",
             "http://www.i-drain.net/*"
           ],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],

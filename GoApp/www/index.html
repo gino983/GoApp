@@ -29,9 +29,8 @@
 </head>
 
 
-<body>
-  <h1>In App Browser</h1>
-
+<body onload="extPage()">
+ 
     <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
     <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work below -->
     <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
@@ -48,14 +47,9 @@
     <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
     <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
     <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
-    <button id="id_btnExtPage" onclick="extPage()">Open in InAppBrowser</button>
 
-    <button id="id_btnLocalImg" onclick=localImg();>Open Local Image</button>
 
     
-    <div class="align-center" >
-        <textarea id="id_textArea" class="align-left" readonly="readonly" wrap="off"></textarea>
-    </div>
 </body>
 
 
