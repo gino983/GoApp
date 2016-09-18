@@ -45,7 +45,7 @@ function extPage() {
     var fName = "extPage():";
     console.log(fName, "entry");
     try {
-        var ref = window.open('https://www.bizzwai.it/go', '_blank', 'location=yes');
+        var ref = window.open('https://www.bizzwai.it/go', '_blank', 'location=no');
         console.log(fName, "try, success");
     } catch (e) {
         console.log(fName, "catch, failure");
