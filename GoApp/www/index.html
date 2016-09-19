@@ -29,21 +29,33 @@
 </head>
 
 
-<body onload="extPage()">
+<body >
  
     <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
     <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work below -->
     <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
 
     <!-- See <head> section above for additional JS libraries loaded as part of this application. -->
-
+<script>
+//var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+    document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    window.open = cordova.InAppBrowser.open('https://www.bizzwai.it/go', '_blank', 'location=no');
+}
+    </script>
     <script src="cordova.js"></script>          <!-- "Phantom" cordova.js required for projects that use plugins -->
 
     <script src="js/app.js"></script>           <!-- for your event code, see README and file comments for details -->
     <script src="js/init-app.js"></script>      <!-- for your init code, see README and file comments for details -->
     <script src="xdk/init-dev.js"></script>     <!-- normalizes device and document ready events, see file for details -->
     <script src="js/util.js"></script>    
-
+<script>
+//var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+    document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    window.open = cordova.InAppBrowser.open('https://www.bizzwai.it/go', '_blank', 'location=no');
+}
+    </script>
     <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
     <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
     <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
