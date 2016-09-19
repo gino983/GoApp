@@ -53,7 +53,14 @@ function onDeviceReady() {
 //var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
     document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
-    window.open = cordova.InAppBrowser.open('https://www.bizzwai.it/go', '_blank', 'location=no');
+    try {
+        window.open = cordova.InAppBrowser.open('https://www.bizzwai.it/go', '_blank', 'location=no');
+    console.log("window.open works well");
+        console.log(fName, "try, success");
+    } catch (e) {
+        console.log(fName, "catch, failure");
+    }
+   
 }
     </script>
     <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
