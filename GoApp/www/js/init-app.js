@@ -128,7 +128,7 @@ app.initDebug = function() {
 // Using a splash screen is optional. This function will not fail if none is present.
 // This is also a simple study in the art of multi-platform device API detection.
 
-app.hideSplashScreen = function() {
+/*app.hideSplashScreen = function() {
     "use strict" ;
     var fName = "app.hideSplashScreen():" ;
     app.consoleLog(fName, "entry") ;
@@ -146,4 +146,4 @@ app.hideSplashScreen = function() {
     }
 
     app.consoleLog(fName, "exit") ;
-} ;
+} ;*/

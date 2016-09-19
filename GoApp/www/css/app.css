@@ -10,12 +10,12 @@
 body {
     /*background-image: rgb(204,204,204);*/
     
-    background-color: #cccccc;
+   /* background-color: #cccccc;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#b7b7b7), to(#cccccc));
     background-image: -webkit-linear-gradient(top, #b7b7b7, #cccccc);
     background-image: -moz-linear-gradient(top, #b7b7b7, #cccccc);
     background-image: -o-linear-gradient(top, #b7b7b7, #cccccc);
-    background-image: linear-gradient(to bottom, #b7b7b7, #cccccc);
+    background-image: linear-gradient(to bottom, #b7b7b7, #cccccc);*/
     width: auto;
     height: auto;
     padding: 20px;
